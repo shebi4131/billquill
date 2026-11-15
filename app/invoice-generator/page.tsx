@@ -1,0 +1,4 @@
+import { InvoiceEditor } from '../../components/invoice-editor';
+import { sampleProfile,sampleInvoice } from '../../lib/invoice';
+export const metadata={title:'Invoice generator preview',description:'Try the BillQuill invoice editor with live totals, discounts, optional tax, and PDF export.',alternates:{canonical:'/invoice-generator'}};
+export default function Demo(){return <main className="wrap section"><p className="eyebrow">INTERACTIVE DEMO</p><h1>Try the invoice editor</h1><p>Change the sample values to see the preview update. Sign in and activate a plan to issue, download, or print an invoice.</p><InvoiceEditor profile={sampleProfile} initial={sampleInvoice}/></main>;}

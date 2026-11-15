@@ -1,0 +1,3 @@
+import { TemplateList } from '../../components/template-list';
+export const metadata={title:'Invoice templates',description:'Explore five invoice designs with customizable business details and logo placement.',alternates:{canonical:'/templates'}};
+export default function Templates(){return <main className="wrap section"><p className="eyebrow">FIVE DESIGNS</p><h1>Invoice templates</h1><p>Find a layout that suits your business and try it with sample data.</p><TemplateList/></main>;}
